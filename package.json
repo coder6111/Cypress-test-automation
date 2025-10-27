@@ -1,0 +1,15 @@
+{
+  "name": "rwa-cypress-framework",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "install-deps": "yarn install",
+    "dev": "echo 'This scaffold assumes you run the RWA app separately per its README'",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "yarn cypress:run"
+  },
+  "devDependencies": {
+    "cypress": "^12.0.0"
+  }
+}
