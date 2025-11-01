@@ -3,7 +3,7 @@ import { defineConfig } from 'cypress'
 export default defineConfig({
   e2e: {
     baseUrl: 'http://localhost:3000',
-    supportFile: false,
+  supportFile: 'cypress/support/commands.js',
     specPattern: 'cypress/e2e/**/*.cy.{js,ts}'
   },
   env: {

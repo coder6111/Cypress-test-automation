@@ -1,0 +1,11 @@
+{
+  "login.username": ["#username", "input[name=\"username\"]", "[data-test=\"username-input\"]"],
+  "login.password": ["#password", "input[name=\"password\"]", "[data-test=\"password-input\"]"],
+  "login.submit": ["button[type=\"submit\"]", "button[data-test=\"signin-button\"]"],
+  "nav.toolbar": [".MuiToolbar-root", "header .toolbar", "[data-test=\"main-toolbar\"]"],
+  "nav.publicTab": ["[data-test=\"nav-public-tab\"]", "#nav-everyone", "a:contains('Everyone')"],
+  "nav.contactsTab": ["[data-test=\"nav-contacts-tab\"]", "#nav-friends", "a:contains('Friends')"],
+  "nav.personalTab": ["[data-test=\"nav-personal-tab\"]", "#nav-mine", "a:contains('Mine')"],
+  "filter.dateRange": ["[data-test=\"transaction-list-filter-date-range-button\"]", "#filter-date-range"],
+  "filter.amountRange": ["[data-test=\"transaction-list-filter-amount-range-button\"]", "#filter-amount-range"]
+}

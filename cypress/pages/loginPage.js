@@ -1,5 +1,3 @@
-// Clean LoginPage page object for Cypress tests
-class LoginPage {
   // Clean LoginPage page object for Cypress tests
   class LoginPage {
     visit() {
@@ -11,15 +9,15 @@ class LoginPage {
     }
 
     usernameField() {
-      return cy.get('#username')
+  return cy.getHealed('login.username')
     }
 
     passwordField() {
-      return cy.get('#password')
+  return cy.getHealed('login.password')
     }
 
     submitButton() {
-      return cy.get('button[type="submit"]')
+  return cy.getHealed('login.submit')
     }
 
     login(username, password) {
